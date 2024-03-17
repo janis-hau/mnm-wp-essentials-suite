@@ -4,15 +4,16 @@
 /**
  * Main file for the MNM WP Essentials Suite.
  * 
- * This file includes the plugin header information and sets up the enhanced structure
- * and configuration of the plugin tailored for WordPress site optimization and security enhancements.
- * It defines necessary constants, loads utility functions,
- * sets up admin pages, enqueues optimized scripts and styles, and provides custom template solutions.
+ * Developed on the foundation of the MNM Base Plugin, this suite enhances WordPress site performance
+ * and security, offering a comprehensive collection of optimizations and utilities for streamlined
+ * website management. It sets up the enhanced structure and configuration tailored for WordPress,
+ * defines necessary constants, loads utility functions, sets up admin pages, enqueues optimized scripts and styles,
+ * and provides custom template solutions.
  *
  * Plugin Name: MNM WP Essentials Suite
  * Plugin URI: https://my-new.me/mnm-wp-essentials-suite
- * Description: The MNM WP Essentials Suite enhances WordPress site performance and security,
- * providing a collection of optimizations and utilities for a streamlined website management experience.
+ * 
+ * Description: The MNM WP Essentials Suite boosts WordPress site performance and security with a set of optimizations and utilities for a streamlined website management experience. Easily customize settings via a dedicated admin page.
  * Version: 1.0.0
  * Author: my-new.me
  * Author URI: https://my-new.me
