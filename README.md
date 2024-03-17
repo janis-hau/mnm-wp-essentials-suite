@@ -1,52 +1,17 @@
-# MNM Base Plugin for WordPress
+# Project Title
 
-## Description
-MNM Base Plugin is a foundational WordPress plugin designed to streamline the development process of future WordPress projects. It adopts a modular approach, incorporating helper functions, utilities, script and style management, database configuration, admin page setup, and template customization.
+Brief description of your project here. Explain what it does and why it is useful.
 
 ## Features
-- **Dynamic Constants**: Easily Define and retrieve constants dynamically throughout the plugin.
-- **Utility Functions**: Utilize functions like `mnm_get_excerpt` for enhanced functionality.
-- **Admin Page Framework**: Create and manage admin pages more efficiently.
-- **Script and Style Management**: Easily manage scripts and styles for both admin and frontend.
-- **Database Configuration**: Setup and manage database tables with ease.
-- **Template Customization**: Handle custom templates effectively.
 
-## Installation
-1. Download the zip file from the GitHub repository.
-2. Unzip the file and upload the `wp-base-plugin` folder to your WordPress `/wp-content/plugins/` directory.
-3. Activate the plugin through the 'Plugins' menu in WordPress.
+List the features of your project. For example:
 
-## Usage
-Each functionality of the plugin is modularized in the `includes` directory. For specific usage, refer to the comments within each file. Some examples include:
-
-### Defining and Using Dynamic Constants
-- Define a constant: `mnm_define_dynamic_constant('CONST_NAME', 'CONST_VAL');`
-- Retrieve a constant: `$value = mnm_get_dynamic_constant('CONST_NAME');`
-
-### Database Configuration
-Set up and manage database tables for the plugin. Refer to `includes/database/_config.php` for table definitions and database-related settings.
-
-### Creating Admin Pages
-Admin page configurations are located in `includes/pages/_config.php`. This file allows you to define the structure and capabilities of your admin pages.
-
-### Templates
-Manage and register custom templates. Template configurations are set in `includes/template/_config.php`.
-
-### Scripts and Styles
-- **Frontend**: Configure frontend scripts and styles in `includes/scripts_and_styles/_config-frontend.php`.
-- **Admin**: Admin-specific scripts and styles are configured in `includes/scripts_and_styles/_config-admin.php`.
-
-### Helper Functions
-- **Debugging Helpers**: Use `mnm_pre_r($arr)` for a readable array/object output and `mnm_pre_v($arr)` for variable dumping.
-- **Partials Loader**: Load partial template files dynamically using `mnm_load_plugin_partial('partial_name', $data)`. `$data` is an optional array passed to the partial.
-
-## Contributing
-Contributions are welcome. Please fork the repository and submit a pull request with your proposed changes.
-
-## License
-This plugin is licensed under the GPL-3.0+ license. See the LICENSE file for more details.
-
-## Author
-[my-new.me](https://my-new.me)
-
-For more detailed documentation, refer to the inline comments within the codebase.
+- **Block External Connections**: Enable to block external connections. Includes whitelist functionality for addresses that should not be blocked.
+- **Block XML/RPC**: Disables the XML/RPC interface to enhance security.
+- **Disable WP Embed Scripts**: Disables WP Embed Scripts to speed up the site and increase security.
+- **HTML Compression**: Enables HTML compression, including options for inline CSS and JS compression, removing comments, and more.
+- **Remove Emoji Scripts**: Removes emoji scripts and styles from the frontend and admin area.
+- **Disable Responsive Images**: Disables the automatic addition of srcset and sizes attributes to images in content.
+- **Disable RSS Feeds**: Control the availability of RSS feeds on your website, with options for custom disable messages and selective feed control.
+- **Heartbeat API Configuration**: Adjust settings for the Heartbeat API, including frequency and disabling on specific pages.
+- **Tidy Up WordPress Head**: Choose which elements to remove from the WordPress head section for cleaner output and improved performance.
