@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: MNM Plugin 1.0\n"
+
+msgid "Welcome to my plugin"
+msgstr "Willkommen zu meinem Plugin"
+
+msgid "This is a test"
+msgstr "Das ist ein Test"
+
+msgid "Plugin settings"
+msgstr "Plugin-Einstellungen"
