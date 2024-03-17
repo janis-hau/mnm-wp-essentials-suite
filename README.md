@@ -1,4 +1,4 @@
-# Project Title
+# MNM WP Essentials Suite
 
 Brief description of your project here. Explain what it does and why it is useful.
 
