@@ -10,16 +10,9 @@ function mnm_save_feature_settings()
 
     $table_name = $wpdb->prefix . $mnm_namespace_function . '_feature_settings';
 
-    mnm_pre_r($_POST);
-
     foreach ($_POST['features'] as $feature_name => $feature_settings) {
 
-        mnm_pre_r($feature_name);
-        mnm_pre_r($feature_settings);
-
         $is_active = (isset($feature_settings['is_active']) && array_key_exists('is_active', $feature_settings ) ) ? $feature_settings['is_active'] : 0; // Prüft, ob die Checkbox markiert wurde.
-
-        mnm_pre_r($is_active);
 
         $settings = maybe_serialize($feature_settings); // Serialisiert die Einstellungen für die Speicherung.
 
